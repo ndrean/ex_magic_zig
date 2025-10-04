@@ -2,6 +2,8 @@
 
 ![Zig support](https://img.shields.io/badge/Zig-0.15.1-color?logo=zig&color=%23f3ab20)
 ![Static Badge](https://img.shields.io/badge/zigler-0.15.1-orange)
+![Static Badge](https://img.shields.io/badge/libmagic-green)
+
 
 
 
