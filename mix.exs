@@ -6,12 +6,13 @@ defmodule ExMagicZig.MixProject do
       app: :ex_magic_zig,
       version: "0.1.0",
       elixir: "~> 1.18",
-      description: "libmagic bindings",
+      description: "libmagic bindings for Elixir using",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
       docs: docs(),
-      preferred_cli_env: [docs: :docs, "hex.publish": :docs]
+      preferred_cli_env: [docs: :docs, "hex.publish": :docs],
+      source_url: "https://github.com/ndrean/ex_magic_zig"
     ]
   end
 
@@ -36,7 +37,8 @@ defmodule ExMagicZig.MixProject do
     [
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/ndrean/ex_magic_zig"},
-      name: :ex_magic_zig
+      name: :ex_magic_zig,
+      files: ~w(lib .formatter.exs mix.exs README.md LICENSE)
     ]
   end
 

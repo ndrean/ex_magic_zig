@@ -23,4 +23,5 @@ ex_magic_zig-*.tar
 /tmp/
 *.zig
 .elixir_ls
+/doc
 
