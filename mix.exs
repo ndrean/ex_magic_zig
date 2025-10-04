@@ -27,6 +27,7 @@ defmodule ExMagicZig.MixProject do
   defp deps do
     [
       {:zigler, git: "https://github.com/E-xyza/zigler/", tag: "0.15.1", runtime: false},
+      # {:zigler, "~> 0.15.1", runtime: false},
       {:ex_doc, "~> 0.34", only: :docs}
     ]
   end

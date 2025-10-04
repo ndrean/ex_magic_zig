@@ -13,6 +13,7 @@ License: BSD-2-Clause (see LICENSE-libmagic).
 
 > [!WARNING]
 > Works on linux and OSX.
+> Requires `Zig`  **0.15.1**
 
 `libmagic` must be installed:
 
