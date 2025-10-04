@@ -28,8 +28,6 @@ defmodule ExMagicZig.MixProject do
     [
       {:zigler, git: "https://github.com/E-xyza/zigler/", tag: "0.15.1", runtime: false},
       {:ex_doc, "~> 0.34", only: :docs}
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
 
