@@ -1,7 +1,7 @@
 # ExMagicZig
 
-[![Zig support](https://img.shields.io/badge/Zig-0.15.1-color?logo=zig&color=%23f3ab20)](http://github.com/ndrean/z-html)
-![Static Badge](https://img.shields.io/badge/zigler-0.15.1.dev)
+[![Zig support](https://img.shields.io/badge/Zig-0.15.1-color?logo=zig&color=%23f3ab20)
+![Static Badge](https://img.shields.io/badge/zigler-dev.0.15.1)
 
 
 Minimal Elixir bindings to `libmagic` powered by the wonderful [Zigler](https://hexdocs.pm/zigler/readme.html) library with Zig v0.15.1.
