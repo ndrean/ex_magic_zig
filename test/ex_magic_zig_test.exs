@@ -9,7 +9,7 @@ defmodule ExMagicZigTest do
   end
 
   test "returns ref" do
-    {:ok, ref} = ExMagicZig.new()
+    {:ok, ref} = ExMagicZig.up()
     assert is_reference(ref)
   end
 

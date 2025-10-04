@@ -4,11 +4,6 @@
 ![Static Badge](https://img.shields.io/badge/zigler-0.15.1-orange)
 ![Static Badge](https://img.shields.io/badge/libmagic-green)
 
-
-
-
-
-
 Minimal Elixir bindings to `libmagic` powered by the wonderful [Zigler](https://hexdocs.pm/zigler/readme.html) library with Zig v0.15.1.
 
 `libmagic` is a library that identifies file types and formats by analyzing file content and structure rather than relying on file extensions.
