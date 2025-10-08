@@ -1,6 +1,7 @@
 defmodule ExMagicZig do
   @moduledoc """
   Use `libmagic` in `Eixir` to identify file types and formats by analyzing file content and structure rather than relying on file extensions.
+  It uses the default libmagic "mime" database and it returns MIME types.
   """
 
   use Zig,
@@ -31,6 +32,7 @@ defmodule ExMagicZig do
 
 
   /// NIF: Create a new `libmagic` resource.
+  /// Sets up the `libmagic` cookie with `MAGIC_MIME_TYPE` flag as returned resource.
   pub fn new() !beam.term {
       const handle = beam.allocator.create(MagicCookie) catch |err| {
           return beam.make_error_pair(err, .{});
